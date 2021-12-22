@@ -10,5 +10,5 @@ The function Add accept two parameters and is used for adding an element to the 
 The function Get retrieve the element associated with the gameplaytag if it is stored inside the map, there is a bool to check if it was found, it's important to use a branch because when we use the element we must be sure that the key looked for contains an element of the same type and wich it is really stored inside the map.
 
 # Conclusion
-The functionality is pretty the same as a standard TMap so it's pretty easy to understand how to use it, but please note that a Map of this type doesn't store the element and it contains void pointers not recognized from the garbage collector, so if the last reference of the uproperty is inside this map then will be garbage collected.
+The functionality is pretty the same as a standard TMap so it's pretty easy to understand how to use it, but please note that a Map of this type doesn't store the element and it contains void pointers not recognized from the garbage collector, so if the only pointer to the uproperty is inside this map then will be garbage collected.
 Use it to get references through blueprint without casting and to make easy passing generic data through objects.
