@@ -2,8 +2,8 @@
 Documentation WildcardMap Ue4 plugin
 WildcardMap is a simple but powerful tool for UE4, it is giving the possibility to have a generic TMap that accept every type of data in blueprint.
 # How to use
-Activate the plugin, and then will be enabled a new type of property "WildcardMap", use it as property of any class in blueprint, and then it will give two functions "Get" and "Add"
-![image](https://user-images.githubusercontent.com/13841147/146653606-30a0cb8f-2e3c-4ddc-bba1-e6c194c2e261.png)
+Activate the plugin, and then will be enabled a new type of property "WildcardMap", use it as property of any class in blueprint, and then manage it with the two public blueprint functions "Get" and "Add" inside WildcardMap categories
+![Senza titolo-3](https://user-images.githubusercontent.com/13841147/147014695-23e4cb8d-06c4-49eb-b89a-51bc565e9009.png)
 # Add
 The function Add accept two parameters and is used for adding an element to the Map, the key is a gameplaytag and the value is a wildcard that can accept every type of value.
 # Get
